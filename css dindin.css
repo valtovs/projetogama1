@@ -5,31 +5,35 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.cabeçalho-logo {
+.cabeçalho {
     background-color: #2E948A;
     display: flex;
-    padding: 25px;
-    padding-left: 85px;
+    padding: 23px 80px;
+    justify-content: space-between;
     box-sizing: content-box;
     box-shadow: 0px 4px 4px 0px #0000005C;
 }
+.cabeçalho-logo {
+    display: flex;
+    box-sizing: content-box;
+}
 
-.dindin p {
+.cabeçalho-logo p {
     height: 100%;
     width: 100%;
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 500;
     display: flex;
-    padding-left: 10px;
-    padding-top: 10px;
+    align-items: flex-end;
+    line-height: 0.9;
+    letter-spacing: 2px;
+    text-indent: 10px;
 }
 
 .cabeçalho-links {
     display: flex;
     gap: 40px;
-    padding-left: 60%;
-    padding-top: 25px;
 }
 
 .cabeçalho-links a {
@@ -38,48 +42,46 @@
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
+    align-items: center;
 }
 
 .Cursos h1 {
     color: #FF4081;
     font-weight: 700;
-    padding: 3%;
     font-size: 60px;
-    line-height: 0px;
+    padding: 6% 6% 0 6%;
+    
 }
-
 .Cursos h6 {
     color: #555555;
     font-weight: 400;
     font-size: 20px;
-    padding-left: 3%;
-    line-height: 0px;
+    padding: 0% 6%;
 }
 
 .div-posts {
     display: flex;
-    padding: 5%;
+    margin: 9%;
 }
 
 .div-posts h3 {
     color: #FF4081;
     font-weight: 700;
     font-size: 35px;
-    padding: 5%;
+    padding: 3% 5% ;
 }
 
 .div-posts p {
     color: #000000;
     font-size: 18px;
-    font-weight: 300;
-    padding-left: 5%;
+    font-weight: 400;
+    padding: 1% 0% 2% 5%;
 }
 
 .div-posts button {
     background-color: #2E948A;
-    color: #FFFFFF;
     font-weight: 400;
     font-size: 20px;
     border-radius: 62px;
@@ -88,63 +90,46 @@
     border: none;
     margin: 5%;
 }
+.div-posts a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 .rodapé {
-    width: 100%;
-    height: 207px;
     background-color: #2E948A;
     display: flex;
+    padding: 40px 120px;
+    justify-content: space-between;
 }
-
 .rodapé-logo {
-    display: flex;
     background-color: #2E948A;
     display: flex;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 150px;
-    box-sizing: content-box;
+    height: 100px;
+    width: 100px;
 }
-
-.dindin-footer p {
-    height: 100%;
-    width: 100%;
+.textos-logo {
     color: #FFFFFF;
-    font-size: 56px;
-    font-weight: 500;
-    display: flex;
-    padding-top: 65px;
 }
-
-.educação-financeira {
-    display: flex;
-    color: #FFFFFF;
-    padding-left: 4px;
-    line-height: 0px;
+.textos-logo h1{
+    font-size: 70px;
+    font-weight: 400;
+    text-indent: 15px;
+}
+.textos-logo p{
+    font-size: 20px;
     font-weight: 300;
+    text-indent: 22px;
+    line-height: 0.7;
 }
-
-.rodapé-links {
-    grid-template-columns: auto;
-    padding-left: 500%;
-    padding-top: 50%;
-}
-
 .rodapé-links a {
-    height: 100%;
-    width: 100%;
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 400;
     font-size: 20px;
     display: flex;
-    line-height: 40px  
-}
-
-.buttons {
-    padding-left: 50%;
-    padding-top: 25px;
-    margin: 0px;
+    line-height: 15px;
+    text-indent: 90px;
+    padding-top: 15px;
 }
 
 .button-footer button {
@@ -157,4 +142,8 @@
     height: 51px;
     margin: 2%;
     border: 2px solid #FFFFFF;
+}
+.button-footer button a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
