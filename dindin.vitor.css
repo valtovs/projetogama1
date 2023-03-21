@@ -1,3 +1,4 @@
+<<<<<<< HEAD:dindin.vitor.css
 * {
     margin: 0;
     padding: 0;
@@ -180,3 +181,154 @@ img {
 }
 
 
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cabeçalho {
+    background-color: #2E948A;
+    display: flex;
+    padding: 23px 80px;
+    justify-content: space-between;
+    box-sizing: content-box;
+    box-shadow: 0px 4px 4px 0px #0000005C;
+}
+.cabeçalho-logo {
+    display: flex;
+    box-sizing: content-box;
+}
+
+.cabeçalho-logo p {
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-end;
+    line-height: 0.9;
+    letter-spacing: 2px;
+    text-indent: 10px;
+}
+
+.cabeçalho-links {
+    display: flex;
+    gap: 40px;
+}
+
+.cabeçalho-links a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Cursos h1 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 60px;
+    padding: 6% 6% 0 6%;
+    
+}
+.Cursos h6 {
+    color: #555555;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0% 6%;
+}
+
+.div-posts {
+    display: flex;
+    margin: 9%;
+}
+
+.div-posts h3 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 3% 5% ;
+}
+
+.div-posts p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 1% 0% 2% 5%;
+}
+
+.div-posts button {
+    background-color: #2E948A;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 62px;
+    width: 233px;
+    height: 51px;
+    border: none;
+    margin: 5%;
+}
+.div-posts a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.rodapé {
+    background-color: #2E948A;
+    display: flex;
+    padding: 40px 120px;
+    justify-content: space-between;
+}
+.rodapé-logo {
+    background-color: #2E948A;
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+.textos-logo {
+    color: #FFFFFF;
+}
+.textos-logo h1{
+    font-size: 70px;
+    font-weight: 400;
+    text-indent: 15px;
+}
+.textos-logo p{
+    font-size: 20px;
+    font-weight: 300;
+    text-indent: 22px;
+    line-height: 0.7;
+}
+.rodapé-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    line-height: 15px;
+    text-indent: 90px;
+    padding-top: 15px;
+}
+
+.button-footer button {
+    background-color: #2E948A;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 62px;
+    width: 300px;
+    height: 51px;
+    margin: 2%;
+    border: 2px solid #FFFFFF;
+}
+.button-footer button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+>>>>>>> 6296dc77b19cd3e822e4c3fcc337c3c32febec4b:css dindin.css
