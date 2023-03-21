@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cabeçalho {
+    background-color: #2E948A;
+    display: flex;
+    padding: 23px 80px;
+    justify-content: space-between;
+    box-sizing: content-box;
+    box-shadow: 0px 4px 4px 0px #0000005C;
+}
+
+.cabeçalho-logo {
+    display: flex;
+    box-sizing: content-box;
+}
+
+.cabeçalho-logo p {
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-end;
+    line-height: 0.9;
+    letter-spacing: 2px;
+    text-indent: 10px;
+}
+
+.cabeçalho-links {
+    display: flex;
+    gap: 40px;
+}
+
+.cabeçalho-links a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.MaisConteudo {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 170px;
+}
+
+.conteudo-textos {
+    margin: 50px;
+    align-items: block;
+}
+
+.MaisConteudo h1 {
+    color: #2E948A;
+    font-size: 50px;
+}
+
+.MaisConteudo h6 {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 40px 150px 50px 0px;
+}
+
+.posts {
+    margin: 10%;
+    display: flex;
+    gap: 80px;
+    
+}
+
+.posts h2 {
+    color: #FF4081;
+}
+
+.posts h5 {
+    font-weight: 300;
+}
+/* pagina contatos */
+
+#borda {
+    border: none;
+    float: left;
+}
+
+.form {
+    float: left;
+}
+
+.Contato {
+    display: flex;
+    margin: 10%;
+}
+
+.Contato legend {
+    color: #FF4081;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#campo1 {
+    border-radius: 7px;
+}
+
+#campo2 {
+    border-radius: 7px;
+}
+
+#campo3 {
+    border-radius: 7px;
+}
+
+#entrar {
+    text-decoration: none;
+    background-color: #FF4081;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 50px;
+    width: 108px;
+    height: 32px;
+    margin: 2%;
+    border: 2px solid #FFFFFF;
+}
+
+/* fim da pagina contatos */
+.rodapé {
+    background-color: #2E948A;
+    display: flex;
+    padding: 40px 120px;
+    justify-content: space-between;
+}
+
+.rodapé-logo {
+    background-color: #2E948A;
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.textos-logo {
+    color: #FFFFFF;
+}
+
+.textos-logo h1 {
+    font-size: 70px;
+    font-weight: 400;
+    text-indent: 15px;
+}
+
+.textos-logo p {
+    font-size: 20px;
+    font-weight: 300;
+    text-indent: 22px;
+    line-height: 0.7;
+}
+
+.rodapé-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    line-height: 15px;
+    text-indent: 90px;
+    padding-top: 15px;
+}
+
+.button-footer button {
+    background-color: #2E948A;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 62px;
+    width: 300px;
+    height: 51px;
+    margin: 2%;
+    border: 2px solid #FFFFFF;
+}
+
+.button-footer button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}

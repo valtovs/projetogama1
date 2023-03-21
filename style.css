@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    }
+.main-flex {
+    padding-left: 23%;
+    padding-right: 23%;
+}
+
+.cabeçalho {
+    background-color: #2E948A;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    }
+
+.links-cabeçalho-flex a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+     color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;       
+}
+
+.links-cabeçalho-flex {
+    display: flex;
+    gap: 50px;
+    padding-left: 60%;
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap:30px;
+}
+
+.titulo {
+color: #FF4081;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 57px;
+padding-top: 100px;
+}
+.img1 {
+    padding-top: 100px;
+}
+
+.texto1 {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+gap: 30px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+font-feature-settings: 'kern' off;
+}
+
+.titulo2 {
+color :#419488;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 57px;
+}
+
+.texto2 {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+gap:30px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+font-feature-settings: 'kern' off;
+padding-top: 70px;
+}
+
+.titulo3 {
+    color :#419488;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 57px;
+}
+
+.texto3 {
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+gap:30px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+font-feature-settings: 'kern' off;
+padding-top: 70px;
+}
+
+.box-todos {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10%;
+    background-color: #F6F6F6;
+    gap: 200px;
+    padding-bottom: 20%;
+}
+
+.titulo-baixo {
+display: flex;
+justify-content: center;
+color: #FF4081;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 57px;
+padding-top:7%;
+background-color: #F6F6F6;
+margin-top:7%
+
+}
+
+.box-primeira {
+display: flex;
+flex-direction: column;
+width: 350px;
+height: 350px;
+gap:30px;
+background-color: #F6F6F6;
+}
+
+.box-segunda {
+display: flex;
+flex-direction: column;
+width: 350px;
+height: 350px;
+gap:30px;
+background-color: #F6F6F6;
+}
+
+.box-terceira {
+display: flex;
+flex-direction: column;
+width: 280px;
+height: 280px;
+gap:30px;
+background-color: #F6F6F6;
+}
+
+.box-todos h4 {
+    display: flex;
+justify-content: center;
+align-items: center;
+color: #FF4081;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+gap:1%;
+}
+
+.botao {
+padding: 15px 3px;
+font-size: 16px;
+background-color: #FF4081;
+border-radius: 62px;
+color:#FFFFFF;
+border-style: hidden;
+width: 233px;
+height: 62.81px;
+left: 623px;
+top: 2817.64px;
+display: flex;
+align-items: center;
+justify-content: center;
+user-select:none;
+cursor:pointer;
+}
+
+.rodape {
+    background-color: #419488;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 130px;
+}
+
+.rodape1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape1 img{
+    width: 90%;
+    display: flex;
+    padding-top: 10px;
+}
+
+.rodape2  a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+    
+}
+
+.rodape2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;   
+}
+
+.rodape3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rodape3 button {
+border-radius: 62px;
+background-color:  #419488;
+color: #FFFFFF;
+border: 2px solid #FFFFFF;
+width: 233px;
+height: 42.81px;
+left: 623px;
+top: 2817.64px;
+font-size: 16px;
+user-select:none;
+cursor:pointer;
+}
+   
+
+
+
+
+
+

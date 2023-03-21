@@ -1,0 +1,23 @@
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#       deleted:    Projeto 1 - Grupo 5.rar
+#       modified:   css dindin.css
+#       modified:   dindin.html
+.git/COMMIT_EDITMSG [unix] (01:26 17/03/2023)                           12,1 All
+E78: Unknown mark
+
+
+dai fechei e tentei de novo
+dei status, alem dos modificados deu:
+
+Patrícia@DESKTOP-S47HFGL MINGW64 ~/Desktop/vscode/Projeto 1 - Grupo 5 (main)
+$ git commit cursos2
+error: pathspec 'cursos2' did not match any file(s) known to git
+
